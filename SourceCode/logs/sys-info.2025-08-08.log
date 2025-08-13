@@ -1,0 +1,207 @@
+2025-08-08 10:59:42 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-08 10:59:42 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 22936 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-08 10:59:42 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-08 10:59:54 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-08 10:59:55 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-08 10:59:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-08 10:59:56 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@167ccc3c
+2025-08-08 10:59:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-08 10:59:56 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-08 10:59:56 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-08 11:00:01 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-08 11:00:02 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-08 11:00:02 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-08 11:00:03 [redisson-netty-2-5] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-08 11:00:03 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-08 11:00:05 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-08 11:00:09 [main] INFO  io.undertow - starting server: Undertow - 2.3.18.Final
+2025-08-08 11:00:09 [main] INFO  org.xnio - XNIO version 3.8.16.Final
+2025-08-08 11:00:09 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.16.Final
+2025-08-08 11:00:09 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-08-08 11:00:10 [main] INFO  org.ruoyi.RuoYiAIApplication - Started RuoYiAIApplication in 29.144 seconds (process running for 30.331)
+2025-08-08 11:00:10 [main] INFO  o.r.c.c.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2025-08-08 11:00:10 [main] INFO  o.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2025-08-08 11:00:21 [XNIO-1 task-2] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-08 11:00:22 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:00:26 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:00:26 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:00:37 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:00:38 [XNIO-1 task-2] INFO  o.r.c.s.listener.UserActionListener - user doLogin, userId:sys_user:1941157542410121217, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3NTQyNDEwMTIxMjE3Iiwicm5TdHIiOiJ5dTVPSWk5d0xjSjZLb2gzWGQ3R1BzSUxxV3JSSFJlaSIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3NTQyNDEwMTIxMjE3fQ.L6CuDF3e6yIk-4Vqk8H60Y_yT1tBamRZu15Rw5V34kI
+2025-08-08 11:00:38 [schedule-pool-1] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[xs001][Success][登录成功]
+2025-08-08 11:00:38 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:00:38 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:00:47 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:00:47 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:00:48 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:01:41 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:01:44 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:29:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-08 11:29:17 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 2204 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-08 11:29:17 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-08 11:29:27 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-08 11:29:28 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-08 11:29:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-08 11:29:29 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e242137
+2025-08-08 11:29:29 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-08 11:29:29 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-08 11:29:29 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-08 11:29:42 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-08 11:29:44 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-08 11:29:44 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-08 11:29:46 [redisson-netty-2-5] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-08 11:29:46 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-08 11:29:53 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-08 11:30:08 [main] INFO  io.undertow - starting server: Undertow - 2.3.18.Final
+2025-08-08 11:30:08 [main] INFO  org.xnio - XNIO version 3.8.16.Final
+2025-08-08 11:30:08 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.16.Final
+2025-08-08 11:30:09 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-08-08 11:30:09 [main] INFO  org.ruoyi.RuoYiAIApplication - Started RuoYiAIApplication in 52.641 seconds (process running for 53.593)
+2025-08-08 11:30:09 [main] INFO  o.r.c.c.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2025-08-08 11:30:09 [main] INFO  o.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2025-08-08 11:30:24 [XNIO-1 task-2] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-08 11:30:24 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:30:25 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:30:26 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:31:16 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:31:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-08 11:31:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-08 11:31:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 529
+2025-08-08 11:31:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-08 11:31:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-08 11:31:20 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (2906ms)
+2025-08-08 11:31:20 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Fri, 08 Aug 2025 03:31:20 GMT
+2025-08-08 11:31:20 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-08 11:31:20 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-08 11:31:20 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-08 11:31:20 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: b27e61d5cb103453f7b20b9b1e34bb62
+2025-08-08 11:31:20 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-08 11:31:20 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-08 11:31:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-08 11:31:23 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:31:38 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:31:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-08 11:31:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-08 11:31:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 1730
+2025-08-08 11:31:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-08 11:31:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-08 11:31:39 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (961ms)
+2025-08-08 11:31:39 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Fri, 08 Aug 2025 03:31:39 GMT
+2025-08-08 11:31:39 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-08 11:31:39 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-08 11:31:39 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-08 11:31:39 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 01bbec686b3a880f103d12cd45cb79c1
+2025-08-08 11:31:39 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-08 11:31:39 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-08 11:31:41 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-08 11:31:41 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:31:55 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:31:55 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-08 11:31:55 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-08 11:31:55 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 2691
+2025-08-08 11:31:55 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-08 11:31:55 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-08 11:31:56 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1033ms)
+2025-08-08 11:31:56 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Fri, 08 Aug 2025 03:31:57 GMT
+2025-08-08 11:31:56 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-08 11:31:56 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-08 11:31:56 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-08 11:31:56 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 1cdc777a10284ca28c0b6ece610b56d7
+2025-08-08 11:31:56 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-08 11:31:57 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-08 11:32:00 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:32:00 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-08 11:37:21 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:37:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-08 11:37:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-08 11:37:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 550
+2025-08-08 11:37:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-08 11:37:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-08 11:37:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1609ms)
+2025-08-08 11:37:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Fri, 08 Aug 2025 03:37:23 GMT
+2025-08-08 11:37:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-08 11:37:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-08 11:37:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-08 11:37:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 9245a4f7f3a807b8fe3828ddb9329b83
+2025-08-08 11:37:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-08 11:37:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-08 11:37:29 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-08 11:37:29 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:40:05 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:40:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-08 11:40:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-08 11:40:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 586
+2025-08-08 11:40:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-08 11:40:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-08 11:40:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1765ms)
+2025-08-08 11:40:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Fri, 08 Aug 2025 03:40:07 GMT
+2025-08-08 11:40:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-08 11:40:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-08 11:40:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-08 11:40:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 8809aa4c7eae3ac8e6eb92372ebabb5f
+2025-08-08 11:40:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-08 11:40:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-08 11:40:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-08 11:40:15 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:40:24 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:40:24 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-08 11:40:24 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-08 11:40:24 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 2728
+2025-08-08 11:40:24 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-08 11:40:24 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-08 11:40:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1331ms)
+2025-08-08 11:40:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Fri, 08 Aug 2025 03:40:25 GMT
+2025-08-08 11:40:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-08 11:40:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-08 11:40:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-08 11:40:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: a77fd90682e3244da14ba42af75f6686
+2025-08-08 11:40:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-08 11:40:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-08 11:40:30 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:40:30 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-08 11:45:10 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:45:19 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:45:40 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:45:41 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 11:45:41 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-08 15:08:26 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-08 15:08:27 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 3852 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-08 15:08:27 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-08 15:08:54 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-08 15:08:56 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-08 15:08:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-08 15:08:58 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@103a1ad3
+2025-08-08 15:08:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-08 15:08:58 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-08 15:08:58 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-08 15:09:08 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-08 15:09:09 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-08 15:09:09 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-08 15:09:11 [redisson-netty-2-6] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-08 15:09:11 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-08 15:09:14 [main] INFO  o.r.c.core.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2025-08-08 15:09:14 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2025-08-08 15:09:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2025-08-08 15:09:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2025-08-08 15:09:14 [main] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [master] success,
+2025-08-08 15:09:14 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2025-08-08 15:12:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-08 15:12:31 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 24492 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-08 15:12:31 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-08 15:12:50 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-08 15:12:52 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-08 15:12:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-08 15:12:53 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@7057d9f4
+2025-08-08 15:12:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-08 15:12:53 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-08 15:12:53 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-08 15:13:01 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-08 15:13:02 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-08 15:13:02 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-08 15:13:03 [redisson-netty-2-5] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-08 15:13:03 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-08 15:13:05 [main] INFO  o.r.c.core.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2025-08-08 15:13:05 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2025-08-08 15:13:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2025-08-08 15:13:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2025-08-08 15:13:05 [main] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [master] success,
+2025-08-08 15:13:05 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye

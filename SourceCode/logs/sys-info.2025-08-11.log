@@ -1,0 +1,27 @@
+2025-08-11 16:00:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-11 16:00:00 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 25964 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-11 16:00:00 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-11 16:00:08 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-11 16:00:08 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-11 16:00:08 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-11 16:00:09 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@121f97fb
+2025-08-11 16:00:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-11 16:00:09 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-11 16:00:09 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-11 16:00:12 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-11 16:00:13 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-11 16:00:13 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-11 16:00:13 [redisson-netty-2-5] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-11 16:00:13 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-11 16:00:14 [main] INFO  o.r.c.core.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2025-08-11 16:00:14 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2025-08-11 16:00:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2025-08-11 16:00:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2025-08-11 16:00:14 [main] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [master] success,
+2025-08-11 16:00:14 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2025-08-11 16:09:10 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-11 16:09:10 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 28360 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-11 16:09:10 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-11 16:09:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-11 16:09:57 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 14708 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-11 16:09:57 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"

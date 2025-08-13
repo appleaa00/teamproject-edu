@@ -1,0 +1,361 @@
+/* 增强的深色模式样式 */
+
+/* 深色模式基础变量 */
+.dark {
+  /* 背景色调色板 */
+  --dark-bg-primary: #0f0f0f;
+  --dark-bg-secondary: #1a1a1a;
+  --dark-bg-tertiary: #262626;
+  --dark-bg-card: #1f1f1f;
+  --dark-bg-elevated: #2a2a2a;
+  
+  /* 边框色调色板 */
+  --dark-border-primary: rgba(255, 255, 255, 0.08);
+  --dark-border-secondary: rgba(255, 255, 255, 0.12);
+  --dark-border-accent: rgba(255, 255, 255, 0.16);
+  
+  /* 文字色调色板 */
+  --dark-text-primary: #ffffff;
+  --dark-text-secondary: #e5e5e5;
+  --dark-text-tertiary: #a3a3a3;
+  --dark-text-muted: #737373;
+  
+  /* 阴影调色板 */
+  --dark-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --dark-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+  --dark-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+  --dark-shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.6);
+  
+  /* 玻璃拟态效果 */
+  --dark-glass-bg: rgba(255, 255, 255, 0.05);
+  --dark-glass-border: rgba(255, 255, 255, 0.1);
+  --dark-glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+/* 深色模式全局样式 */
+.dark body {
+  background: linear-gradient(135deg, 
+    var(--dark-bg-primary) 0%, 
+    var(--dark-bg-secondary) 50%, 
+    var(--dark-bg-tertiary) 100%);
+  color: var(--dark-text-primary);
+}
+
+/* 深色模式聊天界面背景 */
+.dark .chat-content {
+  background: linear-gradient(135deg, 
+    #0f0f0f 0%, 
+    #1a1a2e 25%, 
+    #16213e 50%, 
+    #1a1a2e 75%, 
+    #0f0f0f 100%);
+}
+
+/* 深色模式消息气泡增强 */
+.dark .message-bubble.ai {
+  background: rgba(30, 30, 30, 0.95);
+  border: 1px solid var(--dark-border-secondary);
+  box-shadow: var(--dark-shadow-lg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.dark .message-bubble.ai:hover {
+  background: rgba(40, 40, 40, 0.98);
+  border-color: var(--dark-border-accent);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7);
+}
+
+.dark .message-bubble.user {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+}
+
+.dark .message-bubble.user:hover {
+  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.5);
+}
+
+/* 深色模式输入框增强 */
+.dark .input-glass {
+  background: rgba(20, 20, 20, 0.9);
+  border: 1px solid var(--dark-border-secondary);
+  box-shadow: var(--dark-shadow-lg);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+}
+
+.dark .input-glass:focus-within {
+  background: rgba(25, 25, 25, 0.95);
+  border-color: rgba(59, 130, 246, 0.6);
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+}
+
+/* 深色模式卡片增强 */
+.dark .card-glass {
+  background: var(--dark-glass-bg);
+  border: 1px solid var(--dark-glass-border);
+  box-shadow: var(--dark-glass-shadow);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.dark .card-glass:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.8);
+}
+
+/* 深色模式按钮增强 */
+.dark .btn-glass {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--dark-border-primary);
+  box-shadow: var(--dark-shadow-md);
+  color: var(--dark-text-secondary);
+}
+
+.dark .btn-glass:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--dark-border-secondary);
+  color: var(--dark-text-primary);
+  box-shadow: var(--dark-shadow-lg);
+}
+
+/* 深色模式侧边栏 */
+.dark .sidebar-glass {
+  background: rgba(15, 15, 15, 0.98);
+  border-right: 1px solid var(--dark-border-primary);
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+}
+
+/* 深色模式工具提示 */
+.dark .tooltip-glass {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid var(--dark-border-secondary);
+  box-shadow: var(--dark-shadow-xl);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+/* 深色模式代码块增强 */
+.dark .code-block-wrapper {
+  background: rgba(10, 10, 10, 0.8);
+  border: 1px solid var(--dark-border-primary);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.dark .code-block-header {
+  background: rgba(20, 20, 20, 0.9);
+  border-bottom: 1px solid var(--dark-border-primary);
+  color: var(--dark-text-secondary);
+}
+
+.dark .code-block-body {
+  background: rgba(5, 5, 5, 0.5);
+  color: var(--dark-text-primary);
+}
+
+/* 深色模式加载动画增强 */
+.dark .loading-spinner .primary-ring {
+  border-top-color: #60a5fa;
+  border-right-color: #a78bfa;
+}
+
+.dark .loading-spinner .secondary-ring {
+  border-top-color: #f472b6;
+  border-left-color: #fb7185;
+}
+
+.dark .loading-spinner .center-pulse {
+  background: linear-gradient(135deg, #60a5fa, #a78bfa);
+  box-shadow: 0 0 20px rgba(96, 165, 250, 0.5);
+}
+
+/* 深色模式骨架屏增强 */
+.dark .skeleton-avatar,
+.dark .skeleton-title,
+.dark .skeleton-text,
+.dark .skeleton-button {
+  background: linear-gradient(90deg, 
+    rgba(30, 30, 30, 0.8) 25%, 
+    rgba(45, 45, 45, 0.9) 50%, 
+    rgba(30, 30, 30, 0.8) 75%);
+  background-size: 200% 100%;
+}
+
+/* 深色模式滚动条增强 */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, 
+    rgba(59, 130, 246, 0.4), 
+    rgba(147, 51, 234, 0.4));
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, 
+    rgba(59, 130, 246, 0.6), 
+    rgba(147, 51, 234, 0.6));
+}
+
+/* 深色模式表单元素增强 */
+.dark input,
+.dark textarea,
+.dark select {
+  background: var(--dark-glass-bg);
+  border: 1px solid var(--dark-border-primary);
+  color: var(--dark-text-primary);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.dark input:focus,
+.dark textarea:focus,
+.dark select:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: var(--dark-text-muted);
+}
+
+/* 深色模式链接增强 */
+.dark a {
+  color: #60a5fa;
+}
+
+.dark a:hover {
+  color: #93c5fd;
+  text-shadow: 0 0 8px rgba(96, 165, 250, 0.3);
+}
+
+/* 深色模式分割线 */
+.dark hr,
+.dark .divider {
+  border-color: var(--dark-border-primary);
+  background: linear-gradient(90deg, 
+    transparent, 
+    var(--dark-border-secondary), 
+    transparent);
+}
+
+/* 深色模式高亮文本 */
+.dark .highlight,
+.dark mark {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--dark-text-primary);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* 深色模式选择文本 */
+.dark ::selection {
+  background: rgba(59, 130, 246, 0.3);
+  color: var(--dark-text-primary);
+}
+
+.dark ::-moz-selection {
+  background: rgba(59, 130, 246, 0.3);
+  color: var(--dark-text-primary);
+}
+
+/* 深色模式表格增强 */
+.dark table {
+  background: var(--dark-glass-bg);
+  border: 1px solid var(--dark-border-primary);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.dark th,
+.dark td {
+  border-color: var(--dark-border-primary);
+  color: var(--dark-text-secondary);
+}
+
+.dark th {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--dark-text-primary);
+}
+
+.dark tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* 深色模式通知/提示增强 */
+.dark .notification,
+.dark .alert {
+  background: var(--dark-glass-bg);
+  border: 1px solid var(--dark-border-secondary);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  color: var(--dark-text-primary);
+}
+
+/* 深色模式响应式调整 */
+@media (max-width: 768px) {
+  .dark .chat-content {
+    background: linear-gradient(180deg, 
+      #0f0f0f 0%, 
+      #1a1a2e 100%);
+  }
+  
+  .dark .card-glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+  
+  .dark .input-glass {
+    background: rgba(15, 15, 15, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+}
+
+/* 深色模式动画增强 */
+.dark .animate-glow {
+  animation: dark-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes dark-glow {
+  from {
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+  }
+}
+
+/* 深色模式无障碍增强 */
+.dark .focus-visible {
+  outline: 2px solid rgba(59, 130, 246, 0.8);
+  outline-offset: 2px;
+}
+
+.dark .sr-only {
+  color: var(--dark-text-primary);
+}
+
+
+
+
+
+
+

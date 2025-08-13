@@ -1,0 +1,902 @@
+2025-08-13 15:44:48 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-13 15:44:48 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 34948 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-13 15:44:48 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-13 15:44:54 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'paperMapper' and 'org.ruoyi.teaching.mapper.PaperMapper' mapperInterface. Bean already defined with the same name!
+2025-08-13 15:44:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lock4j-com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties' of type [com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 15:44:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration' of type [com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 15:44:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockKeyBuilder' of type [com.baomidou.lock.DefaultLockKeyBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 15:44:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockFailureStrategy' of type [com.baomidou.lock.DefaultLockFailureStrategy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 15:44:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockInterceptor' of type [com.baomidou.lock.aop.LockInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 15:44:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockAnnotationAdvisor' of type [com.baomidou.lock.aop.LockAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 15:44:57 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-13 15:44:58 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-13 15:44:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-13 15:44:59 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b477121
+2025-08-13 15:44:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-13 15:44:59 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-13 15:44:59 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-13 15:45:03 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 15:45:03 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-13 15:45:03 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-13 15:45:03 [redisson-netty-2-5] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 15:45:03 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 15:45:05 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 15:45:08 [main] INFO  io.undertow - starting server: Undertow - 2.3.18.Final
+2025-08-13 15:45:08 [main] INFO  org.xnio - XNIO version 3.8.16.Final
+2025-08-13 15:45:08 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.16.Final
+2025-08-13 15:45:08 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-08-13 15:45:08 [main] INFO  org.ruoyi.RuoYiAIApplication - Started RuoYiAIApplication in 20.916 seconds (process running for 21.8)
+2025-08-13 15:45:08 [main] INFO  o.r.c.c.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2025-08-13 15:45:08 [main] INFO  o.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2025-08-13 15:48:02 [XNIO-1 task-2] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-13 15:48:02 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:48:03 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:48:05 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:48:58 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:48:58 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 15:48:58 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 15:48:58 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 565
+2025-08-13 15:48:58 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 15:48:58 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 15:49:00 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (2103ms)
+2025-08-13 15:49:00 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 07:49:01 GMT
+2025-08-13 15:49:00 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 15:49:00 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 15:49:00 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 15:49:00 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 7485da52ca06e61e60918c70fe67fe6e
+2025-08-13 15:49:00 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 15:49:00 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 15:49:08 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 15:49:08 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:49:16 [XNIO-1 task-2] ERROR o.r.c.s.h.GlobalExceptionHandler - 请求地址'/chat/audio',认证失败'Token无效：undefined',无法访问系统资源
+2025-08-13 15:49:17 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:49:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 15:49:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 15:49:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 2122
+2025-08-13 15:49:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 15:49:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 15:49:18 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (920ms)
+2025-08-13 15:49:18 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 07:49:18 GMT
+2025-08-13 15:49:18 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 15:49:18 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 15:49:18 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 15:49:18 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 121b9da05c3ad21be7860a861e2d7e44
+2025-08-13 15:49:18 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 15:49:18 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 15:49:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 15:49:25 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:50:33 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:50:35 [XNIO-1 task-3] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzQzY2JfNWIyZjJjMGJfMjFiODhfMzRkNjE4MA==; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 15:50:35 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 15:50:35 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 15:50:35 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 15:50:35 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755071435115.docx
+2025-08-13 15:50:35 [XNIO-1 task-3] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 15:50:35 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 15:51:08 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:51:09 [XNIO-1 task-2] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzQzZWRfODk2YzY0MDlfMTAyZDBfNWUyNDYzMg==; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 15:51:09 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 15:51:09 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 15:51:09 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 15:51:09 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755071469189.pdf
+2025-08-13 15:51:09 [XNIO-1 task-2] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 15:51:09 [XNIO-1 task-2] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 15:51:18 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:51:18 [XNIO-1 task-3] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzQzZjdfODRkMGU5MDlfZThiMV8zNTg2YzYz; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 15:51:18 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 15:51:18 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 15:51:18 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 15:51:18 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755071478828.png
+2025-08-13 15:51:18 [XNIO-1 task-3] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 15:51:18 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 15:51:18 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:51:43 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:51:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 15:51:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 15:51:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 3610
+2025-08-13 15:51:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 15:51:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 15:51:46 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (2643ms)
+2025-08-13 15:51:46 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 07:51:46 GMT
+2025-08-13 15:51:46 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 15:51:46 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 15:51:46 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 15:51:46 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: adcad90748e181f6e009b9437b6a89a3
+2025-08-13 15:51:46 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 15:51:46 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 15:51:50 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 15:51:50 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:56:41 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:56:42 [XNIO-1 task-2] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzQ1M2FfNjU4ZTFiMDlfMmI1MTJfMzRmZDY3YQ==; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 15:56:42 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 15:56:42 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 15:56:42 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 15:56:42 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755071802180.pdf
+2025-08-13 15:56:42 [XNIO-1 task-2] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 15:56:42 [XNIO-1 task-2] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 15:56:49 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:56:49 [XNIO-1 task-3] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzQ1NDFfYzQ4ZDFiMDlfMjNhYWFfMzRjMjYwOA==; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 15:56:49 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 15:56:49 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 15:56:49 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 15:56:49 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755071809592.docx
+2025-08-13 15:56:49 [XNIO-1 task-3] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 15:56:49 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 15:57:10 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:57:10 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 15:57:10 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 15:57:10 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 5499
+2025-08-13 15:57:10 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 15:57:10 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 15:57:12 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1619ms)
+2025-08-13 15:57:12 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 07:57:12 GMT
+2025-08-13 15:57:12 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 15:57:12 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 15:57:12 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 15:57:12 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 2928c44e9f94f2cad7805a001945a339
+2025-08-13 15:57:12 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 15:57:12 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 15:57:19 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 15:57:19 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 15:59:58 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:15:24 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:15:24 [XNIO-1 task-3] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzQ5OWNfNWIyZjJjMGJfMjFiZDRfMzUzMGQ5ZQ==; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:15:24 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:15:24 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:15:24 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:15:24 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755072924673.docx
+2025-08-13 16:15:24 [XNIO-1 task-3] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:15:24 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:15:40 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:15:40 [XNIO-1 task-3] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzQ5YWNfMWIzNTJjMGJfMThkZTRfMzUxNDBhNg==; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:15:40 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:15:40 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:15:40 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:15:40 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755072940535.pdf
+2025-08-13 16:15:40 [XNIO-1 task-3] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:15:40 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:15:51 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:15:51 [XNIO-1 task-3] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzQ5YjdfYzgzNTEwMDlfNDlkZF81ZGY1OGMx; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:15:51 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:15:51 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:15:51 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:15:51 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755072951534.png
+2025-08-13 16:15:51 [XNIO-1 task-3] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:15:51 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:15:51 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:16:03 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:16:04 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:16:04 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:16:04 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 7909
+2025-08-13 16:16:04 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:16:04 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:16:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1700ms)
+2025-08-13 16:16:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:16:05 GMT
+2025-08-13 16:16:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:16:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:16:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:16:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: fb9e9682de49a13f3624605510b26857
+2025-08-13 16:16:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:16:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:16:11 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:16:11 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:16:32 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:16:33 [XNIO-1 task-3] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzQ5ZTFfMTljZDNiMGJfZjc4Nl8zNWExNjdj; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:16:33 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:16:33 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:16:33 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:16:33 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755072993232.docx
+2025-08-13 16:16:33 [XNIO-1 task-3] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:16:33 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:16:38 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:16:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:16:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:16:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 9864
+2025-08-13 16:16:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:16:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:16:40 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1774ms)
+2025-08-13 16:16:40 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:16:40 GMT
+2025-08-13 16:16:40 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:16:40 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:16:40 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:16:40 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 304355448cd0044c38199cd3b656931b
+2025-08-13 16:16:40 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:16:40 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:16:45 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:16:45 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:17:33 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:17:33 [XNIO-1 task-3] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzRhMWVfZGI5M2Y1MDlfNTI1NV80ZjFkYzM4; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:17:33 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:17:33 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:17:33 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:17:33 [XNIO-1 task-3] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755073053927.docx
+2025-08-13 16:17:33 [XNIO-1 task-3] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:17:33 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:17:42 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:17:42 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:17:42 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:17:42 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 10238
+2025-08-13 16:17:42 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:17:42 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:17:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (2095ms)
+2025-08-13 16:17:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:17:45 GMT
+2025-08-13 16:17:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:17:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:17:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:17:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: e3415e3004279d54215d50c6ad5d1eec
+2025-08-13 16:17:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:17:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:17:52 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:17:52 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:26:05 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:28:01 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:28:01 [XNIO-1 task-2] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzRjOTJfNDZjYzNiMGJfZjgwYl8zNTQzMmE5; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:28:01 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:28:01 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:28:02 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:28:02 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755073681997.docx
+2025-08-13 16:28:02 [XNIO-1 task-2] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:28:02 [XNIO-1 task-2] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:28:06 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:28:06 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:28:06 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:28:06 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 10932
+2025-08-13 16:28:06 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:28:06 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:28:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1066ms)
+2025-08-13 16:28:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:28:07 GMT
+2025-08-13 16:28:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:28:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:28:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:28:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 1d649d96a414860233f9ae75b0818a5a
+2025-08-13 16:28:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:28:07 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:28:16 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:28:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:28:38 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:30:58 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:31:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-13 16:31:03 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 17732 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-13 16:31:03 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-13 16:31:07 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'paperMapper' and 'org.ruoyi.teaching.mapper.PaperMapper' mapperInterface. Bean already defined with the same name!
+2025-08-13 16:31:09 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lock4j-com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties' of type [com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 16:31:09 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration' of type [com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 16:31:09 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockKeyBuilder' of type [com.baomidou.lock.DefaultLockKeyBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 16:31:09 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockFailureStrategy' of type [com.baomidou.lock.DefaultLockFailureStrategy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 16:31:09 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockInterceptor' of type [com.baomidou.lock.aop.LockInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 16:31:09 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockAnnotationAdvisor' of type [com.baomidou.lock.aop.LockAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 16:31:10 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-13 16:31:11 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-13 16:31:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-13 16:31:11 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@25dacc5a
+2025-08-13 16:31:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-13 16:31:11 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-13 16:31:11 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-13 16:31:14 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 16:31:15 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-13 16:31:15 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-13 16:31:15 [redisson-netty-2-5] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 16:31:15 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 16:31:16 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 16:31:19 [main] INFO  io.undertow - starting server: Undertow - 2.3.18.Final
+2025-08-13 16:31:19 [main] INFO  org.xnio - XNIO version 3.8.16.Final
+2025-08-13 16:31:19 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.16.Final
+2025-08-13 16:31:19 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-08-13 16:31:19 [main] INFO  org.ruoyi.RuoYiAIApplication - Started RuoYiAIApplication in 16.91 seconds (process running for 17.636)
+2025-08-13 16:31:19 [main] INFO  o.r.c.c.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2025-08-13 16:31:19 [main] INFO  o.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2025-08-13 16:31:33 [XNIO-1 task-2] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-13 16:31:33 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:31:37 [XNIO-1 task-2] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzRkNjlfOWZjYzNiMGJfMTM0N2JfMzUyZDNkNQ==; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:31:37 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:31:37 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:31:37 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:31:37 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755073897626.png
+2025-08-13 16:31:37 [XNIO-1 task-2] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:31:37 [XNIO-1 task-2] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:31:40 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:31:52 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:31:52 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:31:52 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:31:52 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 11289
+2025-08-13 16:31:52 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:31:52 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:31:54 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1409ms)
+2025-08-13 16:31:54 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:31:54 GMT
+2025-08-13 16:31:54 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:31:54 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:31:54 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:31:54 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 8fae290c8162e7ac75e5feeae5c3495a
+2025-08-13 16:31:54 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:31:54 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:32:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:32:05 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:34:10 [XNIO-1 task-3] ERROR o.r.c.s.h.GlobalExceptionHandler - 请求地址'/chat/speech',认证失败'Token无效：undefined',无法访问系统资源
+2025-08-13 16:34:44 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:34:44 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:36:10 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:36:55 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:36:56 [XNIO-1 task-2] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzRlYThfMTJkN2IyMDlfMWUwODZfMzVhMWFiMA==; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:36:56 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:36:56 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:36:56 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:36:56 [XNIO-1 task-2] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755074216258.png
+2025-08-13 16:36:56 [XNIO-1 task-2] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:36:56 [XNIO-1 task-2] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:36:56 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:37:02 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 11127
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 400 https://api.ppinfra.com/v3/openai/chat/completions (380ms)
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:37:02 GMT
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: application/json
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-length: 104
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: a13c958f0b4732dced53d8c9102e8403
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] ERROR o.r.c.l.SSEEventSourceListener - OpenAI  sse连接异常data：{"code":400,"reason":"INVALID_REQUEST_BODY","message":"model features vision not support","metadata":{}}，异常：null
+2025-08-13 16:37:30 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:37:32 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:37:44 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:37:44 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:37:44 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:37:49 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:37:50 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:37:50 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:37:50 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 11026
+2025-08-13 16:37:50 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:37:50 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:37:51 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1775ms)
+2025-08-13 16:37:51 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:37:52 GMT
+2025-08-13 16:37:51 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:37:51 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:37:51 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:37:51 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 2dc7e0b96be1a8eeec3437371e8aa5ce
+2025-08-13 16:37:51 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:37:51 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:37:58 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:37:58 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:41:05 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:41:05 [XNIO-1 task-4] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzRmYTFfOGMyZjlhMWVfY2MwZF8zNGViZjYz; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:41:05 [XNIO-1 task-4] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:41:05 [XNIO-1 task-4] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:41:05 [XNIO-1 task-4] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:41:05 [XNIO-1 task-4] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755074465722.docx
+2025-08-13 16:41:05 [XNIO-1 task-4] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:41:05 [XNIO-1 task-4] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:41:19 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:41:19 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:41:19 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:41:19 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 11587
+2025-08-13 16:41:19 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:41:19 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:41:22 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (2995ms)
+2025-08-13 16:41:22 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:41:22 GMT
+2025-08-13 16:41:22 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:41:22 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:41:22 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:41:22 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: aad3dcfc9b2e34c57b973d526ab0478d
+2025-08-13 16:41:22 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:41:22 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:41:30 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:41:30 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:41:43 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:41:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:41:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:41:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 11837
+2025-08-13 16:41:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:41:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:41:45 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1694ms)
+2025-08-13 16:41:45 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:41:45 GMT
+2025-08-13 16:41:45 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:41:45 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:41:45 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:41:45 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 94b21bdf21e169240a0f935f42ba857d
+2025-08-13 16:41:45 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:41:45 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:41:55 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:41:55 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:44:34 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:44:34 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:44:34 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:48:10 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:48:10 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:48:10 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:51:26 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:51:26 [XNIO-1 task-4] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzUyMGVfOTgyZDUyMWVfMTAyMTdfNGY0MTJiNQ==; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:51:26 [XNIO-1 task-4] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:51:26 [XNIO-1 task-4] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:51:26 [XNIO-1 task-4] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:51:26 [XNIO-1 task-4] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755075086787.png
+2025-08-13 16:51:26 [XNIO-1 task-4] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:51:26 [XNIO-1 task-4] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:51:26 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:51:36 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 12856
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 400 https://api.ppinfra.com/v3/openai/chat/completions (289ms)
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:51:36 GMT
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: application/json
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-length: 104
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 4f79e38edaf27471eba7fb3ef6bcfdec
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] ERROR o.r.c.l.SSEEventSourceListener - OpenAI  sse连接异常data：{"code":400,"reason":"INVALID_REQUEST_BODY","message":"model features vision not support","metadata":{}}，异常：null
+2025-08-13 16:51:51 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:52:13 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:52:13 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:52:13 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:52:13 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 12791
+2025-08-13 16:52:13 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:52:13 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:52:15 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 12791
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (2139ms)
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:52:15 GMT
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 76170458edd2ca6938f1a41a546980ce
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:52:15 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:52:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (2007ms)
+2025-08-13 16:52:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:52:17 GMT
+2025-08-13 16:52:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:52:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:52:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:52:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: d516481befa6ca910680f9944dfc8142
+2025-08-13 16:52:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:52:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:52:29 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:52:29 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:52:30 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:52:30 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:52:56 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:52:56 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:52:56 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:52:56 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:53:43 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:53:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:53:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:53:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 544
+2025-08-13 16:53:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:53:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:53:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (969ms)
+2025-08-13 16:53:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:53:44 GMT
+2025-08-13 16:53:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:53:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:53:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:53:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: ba676ac3a837ae10ca1796446db4fa35
+2025-08-13 16:53:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:53:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:53:51 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:53:51 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:54:42 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:54:42 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:54:42 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:54:42 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 2077
+2025-08-13 16:54:42 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:54:42 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:54:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1879ms)
+2025-08-13 16:54:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:54:44 GMT
+2025-08-13 16:54:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:54:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:54:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:54:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: edbc7a1561e696f819f047420a849f29
+2025-08-13 16:54:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:54:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:54:49 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:54:49 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:55:03 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:55:04 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:55:04 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:55:04 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 3811
+2025-08-13 16:55:04 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:55:04 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:55:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1410ms)
+2025-08-13 16:55:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:55:05 GMT
+2025-08-13 16:55:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:55:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:55:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:55:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: d5415252a03c2480e50aed0e9bce6682
+2025-08-13 16:55:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:55:05 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:55:11 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:55:11 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:55:43 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:55:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:55:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:55:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 6435
+2025-08-13 16:55:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:55:43 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:55:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (994ms)
+2025-08-13 16:55:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:55:45 GMT
+2025-08-13 16:55:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 16:55:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 16:55:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:55:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 21db0a2f2de20a38413153321b4ebd42
+2025-08-13 16:55:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:55:44 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 16:55:52 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 16:55:52 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:59:05 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:59:06 [XNIO-1 task-5] WARN  o.r.s.service.impl.SysOssServiceImpl - OSS上传失败，使用本地存储: 创建Bucket失败, 请核对配置信息:[<bucketname>-<appid> (Service: Amazon S3; Status Code: 400; Error Code: InvalidRequest; Request ID: Njg5YzUzZGFfYWY3MzY0MDlfMTk0YjVfMzU2NmJiYw==; S3 Extended Request ID: null; Proxy: null)]
+2025-08-13 16:59:06 [XNIO-1 task-5] INFO  o.r.s.service.impl.SysOssServiceImpl - 使用上传目录: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:59:06 [XNIO-1 task-5] INFO  o.r.s.service.impl.SysOssServiceImpl - 当前工作目录: C:\Users\28279\Desktop\SourceCode
+2025-08-13 16:59:06 [XNIO-1 task-5] INFO  o.r.s.service.impl.SysOssServiceImpl - 上传目录已存在: C:\Users\28279\Desktop\SourceCode\uploads\images\
+2025-08-13 16:59:06 [XNIO-1 task-5] INFO  o.r.s.service.impl.SysOssServiceImpl - 文件已保存到: C:\Users\28279\Desktop\SourceCode\uploads\images\1755075546297.png
+2025-08-13 16:59:06 [XNIO-1 task-5] WARN  o.r.h.InjectionMetaObjectHandler - 自动注入警告 => 用户未登录
+2025-08-13 16:59:06 [XNIO-1 task-5] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:59:06 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:59:16 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 16:59:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 16:59:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 16:59:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 183033
+2025-08-13 16:59:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 16:59:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 16:59:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 400 https://api.ppinfra.com/v3/openai/chat/completions (490ms)
+2025-08-13 16:59:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 08:59:17 GMT
+2025-08-13 16:59:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: application/json
+2025-08-13 16:59:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-length: 104
+2025-08-13 16:59:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 16:59:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 4eb13616622157ea7e88344f98b8e3b3
+2025-08-13 16:59:17 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 16:59:17 [OkHttp https://api.ppinfra.com/...] ERROR o.r.c.l.SSEEventSourceListener - OpenAI  sse连接异常data：{"code":400,"reason":"INVALID_REQUEST_BODY","message":"model features vision not support","metadata":{}}，异常：null
+2025-08-13 17:03:23 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:03:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 17:03:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 17:03:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 9427
+2025-08-13 17:03:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 17:03:23 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 17:03:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (1701ms)
+2025-08-13 17:03:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 09:03:25 GMT
+2025-08-13 17:03:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 17:03:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 17:03:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 17:03:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 8e56296b65b573282dee83f3b760ce78
+2025-08-13 17:03:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 17:03:25 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 17:03:29 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 17:03:29 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:04:47 [XNIO-1 task-5] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:31:54 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-13 17:31:54 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 32700 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-13 17:31:54 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-13 17:31:59 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'paperMapper' and 'org.ruoyi.teaching.mapper.PaperMapper' mapperInterface. Bean already defined with the same name!
+2025-08-13 17:32:00 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lock4j-com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties' of type [com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:32:00 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration' of type [com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:32:00 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockKeyBuilder' of type [com.baomidou.lock.DefaultLockKeyBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:32:00 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockFailureStrategy' of type [com.baomidou.lock.DefaultLockFailureStrategy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:32:00 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockInterceptor' of type [com.baomidou.lock.aop.LockInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:32:00 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockAnnotationAdvisor' of type [com.baomidou.lock.aop.LockAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:32:01 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-13 17:32:02 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-13 17:32:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-13 17:32:03 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@752e50c6
+2025-08-13 17:32:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-13 17:32:03 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-13 17:32:03 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-13 17:32:07 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 17:32:08 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-13 17:32:08 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-13 17:32:08 [redisson-netty-2-5] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 17:32:08 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 17:32:10 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 17:32:13 [main] INFO  io.undertow - starting server: Undertow - 2.3.18.Final
+2025-08-13 17:32:13 [main] INFO  org.xnio - XNIO version 3.8.16.Final
+2025-08-13 17:32:13 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.16.Final
+2025-08-13 17:32:13 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-08-13 17:32:13 [main] INFO  org.ruoyi.RuoYiAIApplication - Started RuoYiAIApplication in 20.109 seconds (process running for 20.766)
+2025-08-13 17:32:13 [main] INFO  o.r.c.c.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2025-08-13 17:32:13 [main] INFO  o.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2025-08-13 17:32:23 [XNIO-1 task-2] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-13 17:32:23 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:32:30 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:32:30 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 17:32:30 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 17:32:30 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 9907
+2025-08-13 17:32:30 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 17:32:30 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 17:32:33 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (2249ms)
+2025-08-13 17:32:33 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 09:32:33 GMT
+2025-08-13 17:32:33 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 17:32:33 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 17:32:33 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 17:32:33 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 80d3d32d1ad48a3e8ed221c3dc13e554
+2025-08-13 17:32:33 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 17:32:33 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 17:32:38 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 17:32:38 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:32:49 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:32:51 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:43:31 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:43:31 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:43:33 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:45:36 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:45:36 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:45:38 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:45:48 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:45:48 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:45:48 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:45:54 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:45:54 [XNIO-1 task-2] INFO  o.r.c.s.listener.UserActionListener - user doLogout, userId:sys_user:1941157542410121217, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3NTQyNDEwMTIxMjE3Iiwicm5TdHIiOiJSRm81c2FaVUEzQVBKdmxBNFkyVTBGeDNiSGFaZk12YiIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3NTQyNDEwMTIxMjE3fQ.1DLLI4FJ8_1Q4iSk9PJgQGeo6_ZnFIFWMcfeJXUQ0Q4
+2025-08-13 17:45:54 [schedule-pool-1] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[xs001][Logout][退出成功]
+2025-08-13 17:45:55 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:45:55 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:46:00 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:46:00 [XNIO-1 task-3] INFO  o.r.c.s.listener.UserActionListener - user doLogin, userId:sys_user:1941157377100017665, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3Mzc3MTAwMDE3NjY1Iiwicm5TdHIiOiJRTmpyZmVieFFxMGRRVGt1NXBuMTdtQ3lpeXU1VTJ4WCIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3Mzc3MTAwMDE3NjY1fQ.yGMDYd31u3UMVeRNIrfzY5R1PmIgIwOyAHVsTToedRI
+2025-08-13 17:46:00 [schedule-pool-1] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[js001][Success][登录成功]
+2025-08-13 17:46:00 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:46:00 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:46:12 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:46:57 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:46:57 [XNIO-1 task-3] INFO  o.r.c.s.listener.UserActionListener - user doLogout, userId:sys_user:1941157377100017665, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3Mzc3MTAwMDE3NjY1Iiwicm5TdHIiOiJRTmpyZmVieFFxMGRRVGt1NXBuMTdtQ3lpeXU1VTJ4WCIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3Mzc3MTAwMDE3NjY1fQ.yGMDYd31u3UMVeRNIrfzY5R1PmIgIwOyAHVsTToedRI
+2025-08-13 17:46:57 [schedule-pool-2] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[js001][Logout][退出成功]
+2025-08-13 17:46:57 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:46:57 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:47:03 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:47:03 [XNIO-1 task-2] INFO  o.r.c.s.listener.UserActionListener - user doLogin, userId:sys_user:1941157755342352386, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3NzU1MzQyMzUyMzg2Iiwicm5TdHIiOiJ4QWFBbE9Cb05wTzhQVmlmRFYyZTc3YjhiVkZCaHM0WSIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3NzU1MzQyMzUyMzg2fQ.oM4R2zoQ61c9sdsq1H_hyrHSnpwJpkKmUrR8QWPrXYg
+2025-08-13 17:47:03 [schedule-pool-1] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[gly001][Success][登录成功]
+2025-08-13 17:47:03 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:47:03 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:47:17 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:47:19 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:47:19 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:47:20 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:48:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-13 17:48:21 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 36048 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-13 17:48:21 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-13 17:48:25 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'paperMapper' and 'org.ruoyi.teaching.mapper.PaperMapper' mapperInterface. Bean already defined with the same name!
+2025-08-13 17:48:26 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lock4j-com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties' of type [com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:26 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration' of type [com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:26 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockKeyBuilder' of type [com.baomidou.lock.DefaultLockKeyBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:26 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockFailureStrategy' of type [com.baomidou.lock.DefaultLockFailureStrategy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:26 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockInterceptor' of type [com.baomidou.lock.aop.LockInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:26 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockAnnotationAdvisor' of type [com.baomidou.lock.aop.LockAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:27 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-13 17:48:28 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-13 17:48:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-13 17:48:28 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b477121
+2025-08-13 17:48:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-13 17:48:28 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-13 17:48:28 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-13 17:48:32 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 17:48:32 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-13 17:48:32 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-13 17:48:33 [redisson-netty-2-6] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 17:48:33 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 17:48:34 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 17:48:38 [main] INFO  io.undertow - starting server: Undertow - 2.3.18.Final
+2025-08-13 17:48:38 [main] INFO  org.xnio - XNIO version 3.8.16.Final
+2025-08-13 17:48:38 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.16.Final
+2025-08-13 17:48:38 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-08-13 17:48:38 [main] INFO  org.ruoyi.RuoYiAIApplication - Started RuoYiAIApplication in 17.936 seconds (process running for 18.621)
+2025-08-13 17:48:38 [main] INFO  o.r.c.c.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2025-08-13 17:48:38 [main] INFO  o.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2025-08-13 17:48:51 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-13 17:48:51 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 17608 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-13 17:48:51 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-13 17:48:55 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'paperMapper' and 'org.ruoyi.teaching.mapper.PaperMapper' mapperInterface. Bean already defined with the same name!
+2025-08-13 17:48:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lock4j-com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties' of type [com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration' of type [com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockKeyBuilder' of type [com.baomidou.lock.DefaultLockKeyBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockFailureStrategy' of type [com.baomidou.lock.DefaultLockFailureStrategy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockInterceptor' of type [com.baomidou.lock.aop.LockInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:56 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockAnnotationAdvisor' of type [com.baomidou.lock.aop.LockAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 17:48:57 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-13 17:48:58 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-13 17:48:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-13 17:48:58 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@752e50c6
+2025-08-13 17:48:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-13 17:48:58 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-13 17:48:58 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-13 17:49:01 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 17:49:02 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-13 17:49:02 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-13 17:49:02 [redisson-netty-2-5] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 17:49:02 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 17:49:03 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 17:49:06 [main] INFO  io.undertow - starting server: Undertow - 2.3.18.Final
+2025-08-13 17:49:06 [main] INFO  org.xnio - XNIO version 3.8.16.Final
+2025-08-13 17:49:06 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.16.Final
+2025-08-13 17:49:06 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-08-13 17:49:06 [main] INFO  org.ruoyi.RuoYiAIApplication - Started RuoYiAIApplication in 16.171 seconds (process running for 16.821)
+2025-08-13 17:49:06 [main] INFO  o.r.c.c.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2025-08-13 17:49:06 [main] INFO  o.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2025-08-13 17:49:19 [XNIO-1 task-2] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-13 17:49:19 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:20 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:24 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:25 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:25 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:25 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:32 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:32 [XNIO-1 task-4] INFO  o.r.c.s.listener.UserActionListener - user doLogout, userId:sys_user:1941157755342352386, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3NzU1MzQyMzUyMzg2Iiwicm5TdHIiOiJ4QWFBbE9Cb05wTzhQVmlmRFYyZTc3YjhiVkZCaHM0WSIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3NzU1MzQyMzUyMzg2fQ.oM4R2zoQ61c9sdsq1H_hyrHSnpwJpkKmUrR8QWPrXYg
+2025-08-13 17:49:32 [schedule-pool-1] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[gly001][Logout][退出成功]
+2025-08-13 17:49:32 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:32 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:39 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:40 [XNIO-1 task-4] INFO  o.r.c.s.listener.UserActionListener - user doLogin, userId:sys_user:1941157377100017665, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3Mzc3MTAwMDE3NjY1Iiwicm5TdHIiOiJPVXZBMWZpejhReUlWcGpTZjRNRXZFbTduNHpMZjBoSCIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3Mzc3MTAwMDE3NjY1fQ.uEXYsDo-MZI4EV7ezyeANvh2Ew7opgmNOYqm5iA6coI
+2025-08-13 17:49:40 [schedule-pool-1] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[js001][Success][登录成功]
+2025-08-13 17:49:40 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:49:40 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:51:10 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:51:10 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:51:35 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:51:35 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:51:41 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:52:52 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:52:52 [XNIO-1 task-4] INFO  o.r.c.s.listener.UserActionListener - user doLogout, userId:sys_user:1941157377100017665, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3Mzc3MTAwMDE3NjY1Iiwicm5TdHIiOiJPVXZBMWZpejhReUlWcGpTZjRNRXZFbTduNHpMZjBoSCIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3Mzc3MTAwMDE3NjY1fQ.uEXYsDo-MZI4EV7ezyeANvh2Ew7opgmNOYqm5iA6coI
+2025-08-13 17:52:52 [schedule-pool-2] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[js001][Logout][退出成功]
+2025-08-13 17:52:52 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:52:52 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:52:57 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:52:58 [XNIO-1 task-4] INFO  o.r.c.s.listener.UserActionListener - user doLogin, userId:sys_user:1941157755342352386, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3NzU1MzQyMzUyMzg2Iiwicm5TdHIiOiJXS2tDaTJrTEUzbEZyZmpxZDhDS1Vnc1BvWDFxVDRFNSIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3NzU1MzQyMzUyMzg2fQ.d4-7Wkcqr-FW0gx2dxb37so8Wug9WsYiWy6-9ZE3GqY
+2025-08-13 17:52:58 [schedule-pool-1] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[gly001][Success][登录成功]
+2025-08-13 17:52:58 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:52:58 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:53:06 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:53:08 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:53:08 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:53:08 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:58:28 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:58:28 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:58:50 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 17:58:50 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:00:01 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:00:01 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:00:36 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:00:36 [XNIO-1 task-4] INFO  o.r.c.s.listener.UserActionListener - user doLogout, userId:sys_user:1941157755342352386, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3NzU1MzQyMzUyMzg2Iiwicm5TdHIiOiJXS2tDaTJrTEUzbEZyZmpxZDhDS1Vnc1BvWDFxVDRFNSIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3NzU1MzQyMzUyMzg2fQ.d4-7Wkcqr-FW0gx2dxb37so8Wug9WsYiWy6-9ZE3GqY
+2025-08-13 18:00:36 [schedule-pool-3] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[gly001][Logout][退出成功]
+2025-08-13 18:00:36 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:00:36 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:00:43 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:00:43 [XNIO-1 task-4] INFO  o.r.c.s.listener.UserActionListener - user doLogin, userId:sys_user:1941157542410121217, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3NTQyNDEwMTIxMjE3Iiwicm5TdHIiOiJzblpHOUpPeTBjVXo5THViWmgyU3ZOcUNrSzhhS3FPQyIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3NTQyNDEwMTIxMjE3fQ.6p_tn8J4d6YfVD5BkWyo0uQeKWqWdhTTqw43803Ca5E
+2025-08-13 18:00:43 [schedule-pool-2] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[xs001][Success][登录成功]
+2025-08-13 18:00:44 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:00:44 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:00:44 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:02:57 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:02:57 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:02:58 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:04:47 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:04:47 [XNIO-1 task-4] INFO  o.r.c.s.listener.UserActionListener - user doLogout, userId:sys_user:1941157542410121217, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3NTQyNDEwMTIxMjE3Iiwicm5TdHIiOiJzblpHOUpPeTBjVXo5THViWmgyU3ZOcUNrSzhhS3FPQyIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3NTQyNDEwMTIxMjE3fQ.6p_tn8J4d6YfVD5BkWyo0uQeKWqWdhTTqw43803Ca5E
+2025-08-13 18:04:47 [schedule-pool-4] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[xs001][Logout][退出成功]
+2025-08-13 18:04:47 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:04:47 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:05:04 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:05:05 [XNIO-1 task-4] INFO  o.r.c.s.listener.UserActionListener - user doLogin, userId:sys_user:1941157377100017665, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3Mzc3MTAwMDE3NjY1Iiwicm5TdHIiOiJMbjRXNFhYMVo3THBnTFlLVTdDY0cxelZqQWV3eGFVVSIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3Mzc3MTAwMDE3NjY1fQ.EE0NfhBmWSw2y9K99gsp7iC9tRtfhQQQdhw7f87cx0Y
+2025-08-13 18:05:05 [schedule-pool-1] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[js001][Success][登录成功]
+2025-08-13 18:05:05 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:05:05 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:07:19 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:07:19 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:07:34 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:13:14 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:13:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> POST https://api.ppinfra.com/v3/openai/chat/completions
+2025-08-13 18:13:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Type: application/json; charset=utf-8
+2025-08-13 18:13:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Content-Length: 1989
+2025-08-13 18:13:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:Accept: text/event-stream
+2025-08-13 18:13:16 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:--> END POST
+2025-08-13 18:13:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- 200 https://api.ppinfra.com/v3/openai/chat/completions (4362ms)
+2025-08-13 18:13:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:date: Wed, 13 Aug 2025 10:13:21 GMT
+2025-08-13 18:13:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:content-type: text/event-stream
+2025-08-13 18:13:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:cache-control: no-cache
+2025-08-13 18:13:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-request-id: 
+2025-08-13 18:13:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:x-trace-id: 9c887ab67d0f70a7f44711b25cf12118
+2025-08-13 18:13:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.c.o.interceptor.OpenAILogger - OkHttp-------->:<-- END HTTP
+2025-08-13 18:13:21 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI建立sse连接...
+2025-08-13 18:13:58 [OkHttp https://api.ppinfra.com/...] INFO  o.r.c.l.SSEEventSourceListener - OpenAI关闭sse连接...
+2025-08-13 18:13:58 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:14:13 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:14:13 [XNIO-1 task-4] INFO  o.r.c.s.listener.UserActionListener - user doLogout, userId:sys_user:1941157377100017665, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3Mzc3MTAwMDE3NjY1Iiwicm5TdHIiOiJMbjRXNFhYMVo3THBnTFlLVTdDY0cxelZqQWV3eGFVVSIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3Mzc3MTAwMDE3NjY1fQ.EE0NfhBmWSw2y9K99gsp7iC9tRtfhQQQdhw7f87cx0Y
+2025-08-13 18:14:13 [schedule-pool-5] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[js001][Logout][退出成功]
+2025-08-13 18:14:14 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:14:14 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:14:21 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:14:22 [XNIO-1 task-3] INFO  o.r.c.s.listener.UserActionListener - user doLogin, userId:sys_user:1941157542410121217, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3NTQyNDEwMTIxMjE3Iiwicm5TdHIiOiIxZXM0WFpNdTExNXRlelR3S0pWYlNudEtNd0IxWU1lWiIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3NTQyNDEwMTIxMjE3fQ.KQ7VGf66zey7W6ejkAp-4cflzfPRHyTS_pSiLuM0L38
+2025-08-13 18:14:22 [schedule-pool-3] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[xs001][Success][登录成功]
+2025-08-13 18:14:22 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:14:22 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:14:23 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:14:26 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:17:06 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:17:06 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:17:08 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:17:43 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:19:42 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:19:42 [XNIO-1 task-3] INFO  o.r.c.s.listener.UserActionListener - user doLogout, userId:sys_user:1941157542410121217, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3NTQyNDEwMTIxMjE3Iiwicm5TdHIiOiIxZXM0WFpNdTExNXRlelR3S0pWYlNudEtNd0IxWU1lWiIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3NTQyNDEwMTIxMjE3fQ.KQ7VGf66zey7W6ejkAp-4cflzfPRHyTS_pSiLuM0L38
+2025-08-13 18:19:42 [schedule-pool-6] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[xs001][Logout][退出成功]
+2025-08-13 18:19:42 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:19:42 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:19:50 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:19:50 [XNIO-1 task-4] INFO  o.r.c.s.listener.UserActionListener - user doLogin, userId:sys_user:1941157377100017665, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxOTQxMTU3Mzc3MTAwMDE3NjY1Iiwicm5TdHIiOiJkdnlHV0NhQjRuNkJuU25uSXdFVFF1NWFObTVzcmtFSCIsInRlbmFudElkIjoiMDAwMDAwIiwidXNlcklkIjoxOTQxMTU3Mzc3MTAwMDE3NjY1fQ.zPsY5wmAmSWR2Nlv4HTEYGI7kuVhIAon3LmGSIvjZEs
+2025-08-13 18:19:50 [schedule-pool-2] INFO  o.r.s.s.i.SysLogininforServiceImpl - [127.0.0.1]内网IP[js001][Success][登录成功]
+2025-08-13 18:19:50 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:19:50 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:20:00 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:21:40 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:21:41 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:21:44 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:21:48 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:21:48 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:24:13 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:24:13 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:25:25 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:25:25 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:25:27 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:26:55 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:26:55 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:28:43 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:28:43 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:28:47 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:34:25 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:34:25 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:35:39 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:35:39 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:35:51 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:35:51 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:35:55 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:35:55 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:35:57 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:37:40 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:37:40 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:38:27 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:38:27 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:38:29 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:38:49 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:38:49 [XNIO-1 task-4] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:38:55 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-13 18:38:55 [main] INFO  org.ruoyi.RuoYiAIApplication - Starting RuoYiAIApplication using Java 17.0.15 with PID 31072 (C:\Users\28279\Desktop\SourceCode\backend\ruoyi-admin\target\classes started by 28279 in C:\Users\28279\Desktop\SourceCode)
+2025-08-13 18:38:55 [main] INFO  org.ruoyi.RuoYiAIApplication - The following 1 profile is active: "dev"
+2025-08-13 18:39:00 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'paperMapper' and 'org.ruoyi.teaching.mapper.PaperMapper' mapperInterface. Bean already defined with the same name!
+2025-08-13 18:39:01 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lock4j-com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties' of type [com.baomidou.lock.spring.boot.autoconfigure.Lock4jProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 18:39:01 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration' of type [com.baomidou.lock.spring.boot.autoconfigure.LockAutoConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 18:39:01 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockKeyBuilder' of type [com.baomidou.lock.DefaultLockKeyBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 18:39:01 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockFailureStrategy' of type [com.baomidou.lock.DefaultLockFailureStrategy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 18:39:01 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockInterceptor' of type [com.baomidou.lock.aop.LockInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 18:39:01 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lockAnnotationAdvisor' of type [com.baomidou.lock.aop.LockAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [meterRegistryPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-08-13 18:39:02 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-13 18:39:03 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-08-13 18:39:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-08-13 18:39:03 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@25dacc5a
+2025-08-13 18:39:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-08-13 18:39:03 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-08-13 18:39:03 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-08-13 18:39:06 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 18:39:06 [main] INFO  o.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-08-13 18:39:07 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2025-08-13 18:39:07 [redisson-netty-2-5] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 18:39:07 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2025-08-13 18:39:08 [main] INFO  o.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-08-13 18:39:11 [main] INFO  io.undertow - starting server: Undertow - 2.3.18.Final
+2025-08-13 18:39:11 [main] INFO  org.xnio - XNIO version 3.8.16.Final
+2025-08-13 18:39:11 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.16.Final
+2025-08-13 18:39:11 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-08-13 18:39:11 [main] INFO  org.ruoyi.RuoYiAIApplication - Started RuoYiAIApplication in 16.969 seconds (process running for 17.648)
+2025-08-13 18:39:11 [main] INFO  o.r.c.c.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2025-08-13 18:39:11 [main] INFO  o.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2025-08-13 18:39:27 [XNIO-1 task-2] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-13 18:39:27 [XNIO-1 task-2] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:39:30 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:39:38 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:40:48 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:40:48 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:41:15 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:41:15 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:41:21 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:44:56 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:44:56 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:45:32 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:45:32 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1
+2025-08-13 18:46:20 [XNIO-1 task-3] INFO  o.r.c.w.i.PlusWebInvokeTimeInterceptor - 域名信息：127.0.0.1

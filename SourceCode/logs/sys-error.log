@@ -1,0 +1,21 @@
+2025-08-13 15:49:16 [XNIO-1 task-2] ERROR o.r.c.s.h.GlobalExceptionHandler - 请求地址'/chat/audio',认证失败'Token无效：undefined',无法访问系统资源
+2025-08-13 15:50:35 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 15:51:09 [XNIO-1 task-2] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 15:51:18 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 15:56:42 [XNIO-1 task-2] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 15:56:49 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:15:24 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:15:40 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:15:51 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:16:33 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:17:33 [XNIO-1 task-3] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:28:02 [XNIO-1 task-2] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:31:37 [XNIO-1 task-2] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:34:10 [XNIO-1 task-3] ERROR o.r.c.s.h.GlobalExceptionHandler - 请求地址'/chat/speech',认证失败'Token无效：undefined',无法访问系统资源
+2025-08-13 16:36:56 [XNIO-1 task-2] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:37:02 [OkHttp https://api.ppinfra.com/...] ERROR o.r.c.l.SSEEventSourceListener - OpenAI  sse连接异常data：{"code":400,"reason":"INVALID_REQUEST_BODY","message":"model features vision not support","metadata":{}}，异常：null
+2025-08-13 16:41:05 [XNIO-1 task-4] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:51:26 [XNIO-1 task-4] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:51:36 [OkHttp https://api.ppinfra.com/...] ERROR o.r.c.l.SSEEventSourceListener - OpenAI  sse连接异常data：{"code":400,"reason":"INVALID_REQUEST_BODY","message":"model features vision not support","metadata":{}}，异常：null
+2025-08-13 16:59:06 [XNIO-1 task-5] ERROR o.ruoyi.common.log.aspect.LogAspect - 异常信息:Token无效：undefined
+2025-08-13 16:59:17 [OkHttp https://api.ppinfra.com/...] ERROR o.r.c.l.SSEEventSourceListener - OpenAI  sse连接异常data：{"code":400,"reason":"INVALID_REQUEST_BODY","message":"model features vision not support","metadata":{}}，异常：null
